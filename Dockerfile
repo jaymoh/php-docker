@@ -1,4 +1,1 @@
-FROM nginx:1.15.8-alpine
-LABEL company=”Bonyeza testing.”
-LABEL version=”1.0.0"
-COPY index.html /usr/share/nginx/html/index.html
+FROM ubuntu:xenial-20200326
